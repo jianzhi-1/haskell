@@ -23,3 +23,17 @@ strictness analysis
 (+) :: Num a => a -> a -> a
 Curried functions i.e. partial
 Better written as a -> (a -> a)
+
+
+kind, definition, typeclasses
+
+Function application binds tighter than anything else.
+
+Guard: a way to choose between different results based on boolean conditions, without if else.
+
+```haskell
+gpa grade | grade >= 70 = "A"
+          | grade >= 60 = "B"
+          | grade >= 55 = "C"
+          | otherwise = "U"
+```
