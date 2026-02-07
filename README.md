@@ -1,5 +1,19 @@
 # Functional Programming
 
+### Hack
+```shell
+ghcup install cabal
+ghcup set cabal
+
+cabal install ersatz
+cabal build
+brew install minisat // install at least one solver
+cabal test
+```
+
+
+### Before hack
+
 https://www.seas.upenn.edu/~cis1940/spring13/lectures.html
 https://www.cs.columbia.edu/~sedwards/classes/2024/4995-fall/
 
