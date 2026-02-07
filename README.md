@@ -1,6 +1,7 @@
 # Functional Programming
 
 ### Hack
+Cabal: building and packaging Haskell programs.
 ```shell
 ghcup install cabal
 ghcup set cabal
