@@ -10,6 +10,9 @@ cabal install ersatz
 cabal build
 brew install minisat // install at least one solver
 cabal test
+
+cabal build ersatz-demo
+cabal run ersatz-demo  
 ```
 
 
